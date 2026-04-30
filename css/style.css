@@ -1,0 +1,41 @@
+:root {
+  --bs-primary: #7c3aed; 
+  --bg-dark: #0f172a;
+}
+
+body { 
+  background-color: var(--bg-dark); 
+  color: white; 
+  margin: 0; 
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 280px;
+  background: #1e293b !important;
+  min-height: 100vh;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  display: flex !important;
+}
+
+.profile-img {
+  width: 50px !important;
+  height: 50px !important;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.stat-card { border: none; border-radius: 12px; color: white; margin-bottom: 20px; }
+.blue-gradient { background: linear-gradient(135deg, #3b82f6, #1e40af); }
+.pink-gradient { background: linear-gradient(135deg, #ec4899, #7c3aed); }
+.green-gradient { background: linear-gradient(135deg, #10b981, #059669); }
+
+.main-btn { 
+  background-color: var(--bs-primary); 
+  color: white; 
+  border: none; 
+  border-radius: 8px; 
+}
+
+.nav-link { color: rgba(255,255,255,0.6) !important; }
+.nav-link.active { color: white !important; font-weight: bold; }
